@@ -1,0 +1,32 @@
+.orgSeccion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #6278F7;
+    
+}
+
+.orgSeccion img{
+/*box-shadow: 7px 7px 15px rgba(0,0,0,0.10);*/
+position: absolute;
+right: 30%;
+cursor: pointer;
+}
+
+.orgSeccion img:hover{
+    transition: 1.5s;
+    rotate: 75deg;
+}
+
+.orgSeccion img:not(hover){
+    transition: 1.5s;
+    rotate: -75deg;
+}
